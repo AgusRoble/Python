@@ -1,12 +1,5 @@
-
-print("Ingrese un nombre: ")
-Nombre1 = input()
-print("Ingrese su edad: ")
-Edad1 = input()
-print("Ingrese otro nombre: ")
-Nombre2 = input()
-print("Ingrese su edad: ")
-Edad2 = input()
+Nombre1,Edad1 = input("Ingrese un nombre: "),int(input("Ingrese su edad: "))
+Nombre2,Edad2 = input("Ingrese otro nombre: "),int(input("Ingrese su edad: "))
 
 if Edad1 < Edad2:
 	print(f"{Nombre1} es menor que {Nombre2}")
